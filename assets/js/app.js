@@ -1,6 +1,9 @@
 const open = document.querySelector("#open");
 const ul = document.querySelector("ul");
-const closed = document.querySelector(".closed")
+const closed = document.querySelector(".closed");
+const buttonRight = document.querySelector(".button-right");
+const iconsExperience = document.querySelector(".icons--experience");
+
 
 open.addEventListener("click", () =>{
     ul.style.display = "flex";
