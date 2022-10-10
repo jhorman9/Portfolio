@@ -650,53 +650,54 @@ main .experience .space--experience .icons--experience .icon img{
 
 main .experience .space--experience .buttonLeft{
     display: none;
-    width: 35px;
-    height: 35px;
-    background-color: var(--secundary);
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    align-items: center;
-    justify-content: center;
-    color: var(--gray);
-    font-weight: 900;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    cursor: pointer;
 }
 
 @media(max-width: 801px) {
     main .experience .space--experience .buttonLeft{
         display: flex;
+        width: 35px;
+        height: 35px;
+        background-color: var(--secundary);
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        color: var(--gray);
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        cursor: pointer;
+        z-index: 2;
     }
 }
 
 main .experience .space--experience .button-right{
     display: none;
-    width: 35px;
-    height: 35px;
-    background-color: var(--secundary);
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-    color: var(--gray);
-    font-weight: 900;
-    position: absolute;
-    right: -5px;
-    top: 50%;
-    cursor: pointer;
 }
 
 @media(max-width: 801px) {
     main .experience .space--experience .button-right{
         display: flex;
+        width: 35px;
+        height: 35px;
+        background-color: var(--secundary);
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        color: var(--gray);
+        font-weight: 900;
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        cursor: pointer;
     }
 }
 
