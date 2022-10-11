@@ -20,6 +20,7 @@ closed.addEventListener("click", () =>{
 })
 
 buttonRight.addEventListener("click", () =>{
+<<<<<<< HEAD
     iconsExperience.innerHTML += `
     <div class="icon icon4">
         <img src="assets/imgs/Google.png" alt="google">
@@ -34,3 +35,17 @@ buttonRight.addEventListener("click", () =>{
     `
 });
 
+=======
+    iconsExperience.innerHTML += `<div class="icon">
+                                    <img src="assets/imgs/Google.png" alt="google">
+                                    <p class="center padding withoutMargin">Frontend and UI Dev</p>
+                                    <h4 class="withoutMargin">6 meses</h4>
+                                </div>
+                                <div class="icon">
+                                    <img src="assets/imgs/Wizeline.png" alt="Wizeline">
+                                    <p class="center padding withoutMargin">Interactive Design</p>
+                                    <h4 class="withoutMargin">1 año</h4>
+                                </div>
+                                <div class="buttonLeft"><</div>
+    `})
+>>>>>>> 31e22f517f8f0fad5ac4564d1456539f86b8990c
